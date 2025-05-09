@@ -1,7 +1,7 @@
         function addTask() {
             let taskInput = document.getElementById("taskInput");
             let taskText = taskInput.value.trim();
-            if (taskText === " ") return;
+            if (taskText === "") return;
             
             let li = document.createElement("li");
             li.innerHTML = `${taskText} 
